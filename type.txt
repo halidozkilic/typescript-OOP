@@ -1,0 +1,5 @@
+ts dosyası js e dönüşür js derlenir.
+tsc dosya.ts yapılırsa bir tane javascript dosyası görürüz.
+
+ts içerisinde ts ye özgü kod yazmaya gerek yoktur js de yazılabilir.
+

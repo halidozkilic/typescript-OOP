@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+var ProductService_1 = require("./ProductService");
+var Product_1 = require("./Product");
+var _productService = new ProductService_1.ProductService();
+var result;
+result = _productService.getProducts();
+result = _productService.getById(3);
+console.log(result);
+var p = new Product_1.Product();
+p.name = "yenii";
+p.category = "bilk";
+p.price = 222;
+_productService.saveProduct(p);
+result = _productService.getProducts();
+console.log(result);
